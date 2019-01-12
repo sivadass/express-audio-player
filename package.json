@@ -1,29 +1,24 @@
 {
-  "name": "expressmusic",
+  "name": "express-music-player",
   "version": "1.0.0",
-  "description": "Simple ExpressJS app to server music for listening and downloading",
-  "main": "app.js",
+  "description": "Express Audio Streaming",
+  "main": "index.js",
   "scripts": {
-    "test": "npm test"
+    "start": "node index.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/rishabhio/ExpressMusic.git"
+    "url": "git+https://github.com/sivadass/express-audio-player.git"
   },
   "keywords": [
-    "expressjs",
     "nodejs",
     "serve",
     "music",
     "in",
     "express"
   ],
-  "author": "@rishabhio",
+  "author": "Sivadass",
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/rishabhio/ExpressMusic/issues"
-  },
-  "homepage": "https://github.com/rishabhio/ExpressMusic#readme",
   "dependencies": {
     "express": "^4.14.0"
   }
